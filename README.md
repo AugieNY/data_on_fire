@@ -19,6 +19,11 @@ The data used for this project was pulled from a notebook created by the profile
 
 Link to data source: https://www.kaggle.com/datasets/whenamancodes/credit-card-customers-prediction
 
+### Exploratory Data Analysis (EDA)
+To perform our EDA, we imported our dataset into a Google Colab notebook and created a DataFrame from the BankChurners.csv file:
+
+![eda1.png]()
+
 ## Analysis
 Questions aimed to answer with the data:
 
