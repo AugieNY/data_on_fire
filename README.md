@@ -48,3 +48,8 @@ Questions aimed to answer with the data:
 * What is the average number of months on book for existing and attrited customers for each card category?
 * What is the average LTV for existing and attrited customers for each card category?
 
+## Machine Learning 
+
+Due to the type of data working on and the pondered questions, there is one logical way to go and its by the means of a supervised machine learning to evaluate the data and create a classification model. Based on the input data the model predicts if a customer is prone to churning just by examining its profile. 
+
+First attempt will focus on creating a simple logistic regression model to predict customer attrition. Depending on the results of the accuracy of the model, it could be possible to try a different approach with some models that are more robust to outliers and imbalanced data. 
