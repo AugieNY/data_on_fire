@@ -26,11 +26,11 @@ Link to data source: https://www.kaggle.com/datasets/whenamancodes/credit-card-c
 Questions aimed to answer with the data:
 
 GENERAL / BIG PICTURE
-How many customers total?
-What are the credit card categories?
-What is the average LTV for all customers?
-What is the average months on book for all customers?
-What is the credit limit for each credit card category?
-How many customers for each credit card category?
-Total number of existing and attrited customers
+*How many customers total?
+*What are the credit card categories?
+*What is the average LTV for all customers?
+*What is the average months on book for all customers?
+*What is the credit limit for each credit card category?
+*How many customers for each credit card category?
+*Total number of existing and attrited customers
 
