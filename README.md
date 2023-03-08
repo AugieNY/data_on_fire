@@ -20,9 +20,16 @@ The data used for this project was pulled from a notebook created by the profile
 Link to data source: https://www.kaggle.com/datasets/whenamancodes/credit-card-customers-prediction
 
 ### Exploratory Data Analysis (EDA)
+
 To perform our EDA, we imported our dataset into a Google Colab notebook and created a DataFrame from the BankChurners.csv file:
 
-![eda1.png]()
+![eda1.png](https://github.com/AugieNY/data_on_fire/blob/fbb16c7285f78b79f0e8ada018924341f8ce01e0/Resources/eda1.png)
+
+After dropping the last two columns, we used the shape() function to see how many rows and columns our datset has: 10,127 rows and 21 columns. Additionally, we used the info() function to obtain column data types and count null values, in this case, no null values were found:
+
+![eda2.png](https://github.com/AugieNY/data_on_fire/blob/fbb16c7285f78b79f0e8ada018924341f8ce01e0/Resources/eda2.png)
+
+Finally, we used the unique() funtion to determine the unique values in each category/column. More details can be found in the Group1_EDA.ipynb file.
 
 ## Analysis
 Questions aimed to answer with the data:
