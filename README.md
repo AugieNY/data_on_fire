@@ -53,3 +53,12 @@ Questions aimed to answer with the data:
 Due to the type of data working on and the pondered questions, there is one logical way to go and its by the means of a supervised machine learning to evaluate the data and create a classification model. Based on the input data the model predicts if a customer is prone to churning just by examining its profile. 
 
 First attempt will focus on creating a simple logistic regression model to predict customer attrition. Depending on the results of the accuracy of the model, it could be possible to try a different approach with some models that are more robust to outliers and imbalanced data. 
+
+### Sketch of ML file: 
+
+1. Encode and label variables
+2. Determine which variable we’re trying to predict (Y dependent variable, X independent variables)
+3. Split the variables into train set and test set (Stratify and Scale data*)
+4. Initialize and train model 
+5. Test model and predict 
+6. Assess performance of results (accuracy_score*)
