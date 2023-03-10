@@ -34,6 +34,14 @@ Finally, we used the unique() funtion to determine the unique values in each cat
 ## Analysis
 Questions aimed to answer with the data:
 
+The data analyzed based on these segments: 
+
+Customer by Card Category: Blue, Silver Gold (other)
+Customer Income Status: Less than $40k, $40k-$60k, $60k-$80k, $80k-$120k, $120k+
+New Customers: Months on book = 12 months or less
+Months on book: 13-56 months (2nd-4th year customers)
+Attrition Flag: Existing Customer, Attrited Customer
+
 **GENERAL / BIG PICTURE**
 * How many customers total?
 * What are the credit card categories?
