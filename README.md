@@ -71,6 +71,14 @@ Demographics: most common income, age, marital status, gender, education level
 * Open to buy ratio by card category
 * Average utilization ratio by card category
 * Contacts count (number in the last 12 months)
+* Number of dependents - avg by card category
+* Total relationships - avg by card category
+
+**PROFILING PROFITABILITY**
+*For each credit card category of attrited customers find:
+    -Total revolving balance
+    -Spend: total or average transaction amount (LTV)
+
 ## Machine Learning 
 
 Due to the type of data working on and the pondered questions, there is one logical way to go and its by the means of a supervised machine learning to evaluate the data and create a classification model. Based on the input data the model predicts if a customer is prone to churning just by examining its profile. 
