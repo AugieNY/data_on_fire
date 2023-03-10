@@ -34,13 +34,16 @@ Finally, we used the unique() funtion to determine the unique values in each cat
 ## Analysis
 Questions aimed to answer with the data:
 
+* Which customers are most likely to churn based on their charateristics?
+* Which customers are likely to spend the most based on their characteristics?
+
 The data analyzed based on these segments: 
 
-Customer by Card Category: Blue, Silver Gold (other)
-Customer Income Status: Less than $40k, $40k-$60k, $60k-$80k, $80k-$120k, $120k+
-New Customers: Months on book = 12 months or less
-Months on book: 13-56 months (2nd-4th year customers)
-Attrition Flag: Existing Customer, Attrited Customer
+* Customer by Card Category: Blue, Silver Gold (other)
+* Customer Income Status: Less than $40k, $40k-$60k, $60k-$80k, $80k-$120k, $120k+
+* New Customers: Months on book = 12 months or less
+* Months on book: 13-56 months (2nd-4th year customers)
+* Attrition Flag: Existing Customer, Attrited Customer
 
 **GENERAL / BIG PICTURE**
 * How many customers total?
@@ -56,10 +59,10 @@ Attrition Flag: Existing Customer, Attrited Customer
 * What is the average number of months on book for existing and attrited customers for each card category?
 * What is the average LTV for existing and attrited customers for each card category?
 
-PROFILING DEMOGRAPHICS
-For each credit card category of attrited customers find:
+**PROFILING DEMOGRAPHICS**
+* For each credit card category of attrited customers find:
 Demographics: most common income, age, marital status, gender, education level
-For each credit card category of existing customers find:
+* For each credit card category of existing customers find:
 Demographics: most common income, age, marital status, gender, education level
 
 ## Machine Learning 
