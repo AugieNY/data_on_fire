@@ -19,7 +19,7 @@ The data used for this project was pulled from a notebook created by the profile
 
 Link to data source: https://www.kaggle.com/datasets/whenamancodes/credit-card-customers-prediction
 
-### Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 To perform our EDA, we imported our dataset into a Google Colab notebook and created a DataFrame from the BankChurners.csv file:
 
@@ -53,7 +53,7 @@ The data analyzed based on these segments:
 * What is the credit limit for each credit card category?
 * How many customers for each credit card category?
 * Total number of existing and attrited customers
-<br>*Credit Card Category Split:*
+<br>Credit Card Category Split:</br>
 * Total number of existing and attrited customers for each card category
 * What is the average number of months on book for each card category?
 * What is the average number of months on book for existing and attrited customers for each card category?
