@@ -48,7 +48,6 @@ The data analyzed based on these segments:
 **GENERAL / BIG PICTURE**
 * How many customers total?
 * What are the credit card categories?
-* What is the average LTV for all customers?
 * What is the average months on book for all customers?
 * What is the credit limit for each credit card category?
 * How many customers for each credit card category?
@@ -57,7 +56,6 @@ The data analyzed based on these segments:
 * Total number of existing and attrited customers for each card category
 * What is the average number of months on book for each card category?
 * What is the average number of months on book for existing and attrited customers for each card category?
-* What is the average LTV for existing and attrited customers for each card category?
 
 **PROFILING DEMOGRAPHICS**
 * For each credit card category of attrited customers find:
@@ -67,7 +65,6 @@ Demographics: most common income, age, marital status, gender, education level
 
 **PROFILING ENGAGEMENT / SPEND HABITS**
 * Total and average transaction count by card category
-* Between New, 1st, year second year segmented customers, what is the average number of inactive and active months for each card category?
 * Open to buy ratio by card category
 * Average utilization ratio by card category
 * Contacts count (number in the last 12 months)
@@ -77,13 +74,10 @@ Demographics: most common income, age, marital status, gender, education level
 **PROFILING PROFITABILITY**
 * For each credit card category of attrited customers find:
     -Total revolving balance
-    -Spend: total or average transaction amount (LTV)
 * For each credit card category of existing customers find:
     -Total revolving balance
-    -Spend: total or average transaction amount (LTV)
 * For each defined customer age segment (months on book) find:
     -Total revolving balance
-    -Spend: total or average transaction amount (LTV)
     
 ## Machine Learning 
 
