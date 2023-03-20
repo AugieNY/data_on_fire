@@ -82,3 +82,5 @@ First attempt will focus on creating a simple logistic regression model to predi
 
 ### Results
 First model to be evaluated is the Logistic Regression model. This model resulted in an accuracy score of ~0.61, which can be seen in the confusion matrix as many failed attempts in predicting the results right. From the imbalanced report, the f1 score shows that for 'Existing Customers' the predictions have good accuracy, on the other hand, the model failed to predict  'Attrited Customer' (reflected in low overall scores).
+
+![This is an image](Resources/ML1.png)
