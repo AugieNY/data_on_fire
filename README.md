@@ -4,6 +4,9 @@ Final Group Project:
 
 Fatima Benitez, Jennifer Barrios, Alberto Aigner, Augustin Bourgois, Will Siuta
 
+Link to Online Presentation:
+https://docs.google.com/presentation/d/13NNEb-RXWfnP5Xs80MQAMwOG6-EOoSie4LReDq9KJKM/edit?usp=sharing
+
 ## Introduction
 Predicting customer churn is a challenge for businesses with large customer bases who may not have a one-to-one relationship with them. It is therefore critical to collect and store data on each unique customer in order to analyze their characteristics and determine what the commonalities are among loyal customers and those who leave. Furthermore, implementing machine learning techniques enables companies to automate the analysis and make more efficient predictions.
 
@@ -93,3 +96,16 @@ First attempt will focus on creating a simple logistic regression model to predi
 4. Initialize and train model 
 5. Test model and predict 
 6. Assess performance of results (accuracy_score*)
+
+### Results
+First model to be evaluated is the Logistic Regression model. This model resulted in an accuracy score of ~0.61, which can be seen in the confusion matrix as many failed attempts in predicting the results right. From the imbalanced report, the f1 score shows that for 'Existing Customers' the predictions have good accuracy, on the other hand, the model failed to predict  'Attrited Customer' (reflected in low overall scores).
+
+**Confusion Matrix**
+
+![This is an image](Resources/ML2.png)
+
+**Imbalanced Accuracy Score**
+
+![This is an image](Resources/ML1.png)
+
+Overall accuracy is not good for this model,  a better approach will be selected with a more robust model where the influence of the imbalanced data has less effect on the results.
