@@ -109,3 +109,5 @@ First model to be evaluated is the Logistic Regression model. This model resulte
 ![This is an image](Resources/ML1.png)
 
 Overall accuracy is not good for this model,  a better approach will be selected with a more robust model where the influence of the imbalanced data has less effect on the results.
+
+Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn).  
