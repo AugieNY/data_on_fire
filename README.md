@@ -88,6 +88,9 @@ Demographics: most common income, age, marital status, gender, education level
 * Total revolving balance for each credit card category of attrited customers
 * Total revolving balance for each credit card category of existing customers
 * Total revolving balance for each defined customer age segment (months on book)
+
+The following Tableau story is representative of the results of the questions above:
+https://public.tableau.com/app/profile/jennifer.barrios/viz/Final_Project_16793777902920/Final_Project_Story
     
 ## Machine Learning 
 
