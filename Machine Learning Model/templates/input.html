@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Credit Card Churn Prediction</title>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+	<h1>Credit Card Churn Prediction Based on Input values</h1>
+	<h2></h2>
+	
+	<h2>Model Input</h2>
+	<form method="POST" action="/" id="churn">
+
+        <label for="transct">Total trans ct:</label>
+		<input type="number" id="transct" name="transct" min="0" value="19" max="200"><br>
+		
+        <label for="transamt">Total trans amt:</label>
+		<input type="number" id="transamt" name="transamt" min="0" value="705" max="20000"><br>
+
+		<label for="balance">Total Revolving Balance:</label>
+		<input type="number" id="balance" name="balance" min="0" value="808" max="3000"><br>
+
+		<label for="chngct">Total ct chng q4 q1:</label>
+		<input type="number" id="chngct" name="chngct" min="0" step="0.001" value="0.900" max="4.000"><br>
+
+		<label for="chngamt">Total amt chng q4 q1:</label>
+		<input type="number" id="chngamt" name="chngamt" min="0" step="0.001" value="0.997" max="4.000"><br>
+
+		<label for="ratio">Average utilization ratio:</label>
+		<input type="number" id="ratio" name="ratio" min="0" step="0.001" value="0.562" max="1.000"><br>
+
+		<label for="relationship">Relationship Count:</label>
+		<input type="number" id="relationship" name="relationship" min="0" value="2" max="10"><br>
+		
+		<label for="average">Average open to buy:</label>
+		<input type="number" id="average" name="average" min="0" step="0.1" value="630.3" max="40000.0"><br>
+
+		<label for="credit">Credit Limit:</label>
+		<input type="number" id="credit" name="credit" min="0" step="0.1" value="1438.3" max="40000.0"><br>
+
+        <label for="age">Customer Age:</label>
+		<input type="number" id="age" name="age" min="0" value="54" max="122"><br>
+
+        <label for="contacts">Contacts count:</label>
+		<input type="number" id="contacts" name="contacts" min="0" value="1" max="12"><br>
+
+		<label for="inactive">Months inactive:</label>
+		<input type="number" id="inactive" name="inactive" min="0" value="3" max="12"><br>
+
+		<label for="months">Months on books:</label>
+		<input type="number" id="months" name="months" min="0" value="40" max="84"><br>
+
+		<label for="dependent">Dependent count:</label>
+		<input type="number" id="dependent" name="dependent" min="0"  value="1" max="10"><br>
+
+
+		<button type="submit" class="btn btn-primary btn-block btn-large">Predict Customer</button>
+	</form>
+	<script>
+		
+		// Function to send input data to machine learning model and get churn prediction-->
+	// function predictChurn() {
+
+    //             // Get form data
+    //         const form = document.getElementById("churn");
+    //         const data = new FormData(form);
+
+    //         // Send form data to Flask app
+    //         fetch("/", {
+    //         method: "POST",
+    //         body: data
+    //         })
+    //         .then(response => response.text())
+    //         .then(data => {
+    //   // Do something with the response data, like display it on the webpage
+    //   console.log(data);
+    // })
+    //         .catch(error => {
+    //         console.error(error);
+    //         });
+    //     }
+
+		// 	var transct = document.getElementById("transct").value;
+		// 	var transamt = document.getElementById("transamt").value;
+		// 	var balance = document.getElementById("balance").value;
+		// 	var chngct = document.getElementById("chngct").value;
+		// 	var chngamt = document.getElementById("chngamt").value;
+		// 	var ratio = document.getElementById("ratio").value;
+        //     var relationship = document.getElementById("relationship").value;
+        //     var average = document.getElementById("average").value;
+        //     var credit = document.getElementById("credit").value;
+        //     var age = document.getElementById("age").value;
+        //     var contacts = document.getElementById("contacts").value;
+        //     var inactive = document.getElementById("inactive").value;
+        //     var months = document.getElementById("months").value;
+        //     var dependent = document.getElementById("dependent").value;
+
+        //     // var test = [transct,transamt,balance,chngct,chngamt,ratio,relationship,average,credit,age,contacts,inactive,months,dependent];
+		// 	// Send data to machine learning model and get prediction
+			
+		// } 
+
+	</script>
+    <div id="prediction"> 
+        <br\>
+        <h3> Predicted Output: </h3>
+
+{{ output }}
+
+    </div>
+</body>
+</html>
