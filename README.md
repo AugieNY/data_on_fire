@@ -80,19 +80,14 @@ Demographics: most common income, age, marital status, gender, education level
 
 **PROFILING ENGAGEMENT / SPEND HABITS**
 * Total and average transaction count by card category
-* Open to buy ratio by card category
-* Average utilization ratio by card category
 * Contacts count (number in the last 12 months)
 * Number of dependents - avg by card category
 * Total relationships - avg by card category
 
 **PROFILING PROFITABILITY**
-* For each credit card category of attrited customers find:
-    -Total revolving balance
-* For each credit card category of existing customers find:
-    -Total revolving balance
-* For each defined customer age segment (months on book) find:
-    -Total revolving balance
+* Total revolving balance for each credit card category of attrited customers
+* Total revolving balance for each credit card category of existing customers
+* Total revolving balance for each defined customer age segment (months on book)
     
 ## Machine Learning 
 
