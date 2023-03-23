@@ -93,6 +93,9 @@ The following Tableau story is representative of the results of the questions ab
 https://public.tableau.com/app/profile/jennifer.barrios/viz/Final_Project_16793777902920/Final_Project_Story
 
 It is broken out into 2 dashboards - one with the overview of the categorical data, which can be easily filtered by attrited vs existing customer, or all.
+
+**Segment Overview**
+![This is an image](Resources/segment.png)
     
 ## Machine Learning 
 
