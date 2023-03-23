@@ -22,17 +22,29 @@ The data used for this project was pulled from a notebook created by the profile
 
 Link to data source: https://www.kaggle.com/datasets/whenamancodes/credit-card-customers-prediction
 
+Additionally, two columns were added, weekly and monthly income based on education level. This data was pulled from the US Bureau of Labor Statistics and joined using pgAdmin and SQL.
+
 ## Exploratory Data Analysis (EDA)
 
 To perform our EDA, we imported our dataset into a Google Colab notebook and created a DataFrame from the BankChurners.csv file:
 
 ![eda1.png](https://github.com/AugieNY/data_on_fire/blob/fbb16c7285f78b79f0e8ada018924341f8ce01e0/Resources/eda1.png)
 
-After dropping the last two columns, we used the shape() function to see how many rows and columns our datset has: 10,127 rows and 21 columns. Additionally, we used the info() function to obtain column data types and count null values, in this case, no null values were found:
+After dropping the last two columns, we used the shape() function to see how many rows and columns our datset has: 10,127 rows and 23 columns. Additionally, we used the info() function to obtain column data types and count null values, in this case, no null values were found:
 
 ![eda2.png](https://github.com/AugieNY/data_on_fire/blob/fbb16c7285f78b79f0e8ada018924341f8ce01e0/Resources/eda2.png)
 
-Finally, we used the unique() funtion to determine the unique values in each category/column. More details can be found in the Group1_EDA.ipynb file.
+We used the unique() funtion to determine the unique values in each category/column. More details can be found in the Group1_EDA.ipynb file.
+
+Finally, we used Matplotlib to generate some charts to offer further insight into the data distribution and trends:
+
+![attrition_flag.png](https://github.com/AugieNY/data_on_fire/blob/824b5124a149cadaa45e812da7ad1d11a893d2db/Resources/attrition_flag.png)
+
+![education_level.png](https://github.com/AugieNY/data_on_fire/blob/824b5124a149cadaa45e812da7ad1d11a893d2db/Resources/education_level.png)
+
+![income_cat.png](https://github.com/AugieNY/data_on_fire/blob/824b5124a149cadaa45e812da7ad1d11a893d2db/Resources/income_cat.png)
+
+![marital_status.png](https://github.com/AugieNY/data_on_fire/blob/824b5124a149cadaa45e812da7ad1d11a893d2db/Resources/marital_status.png)
 
 ## Analysis
 Questions aimed to answer with the data:
