@@ -89,6 +89,7 @@ Demographics: most common income, age, marital status, gender, education level
 * Total revolving balance for each credit card category of existing customers
 * Total revolving balance for each defined customer age segment (months on book)
 
+**Tableau Summary**
 The following Tableau story is representative of the results of the questions above:
 https://public.tableau.com/app/profile/jennifer.barrios/viz/Final_Project_16793777902920/Final_Project_Story
 
@@ -96,6 +97,9 @@ It is broken out into 2 dashboards - one with the overview of the categorical da
 
 **Segment Overview**
 ![This is an image](Resources/segment.png)
+
+**Segment Analysis**
+![This is an image](Resources/segment2.png)
     
 ## Machine Learning 
 
