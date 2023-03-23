@@ -37,8 +37,8 @@ Finally, we used the unique() funtion to determine the unique values in each cat
 ## Analysis
 Questions aimed to answer with the data:
 
-* Which customers are most likely to churn based on their charateristics?
-* Which customers are likely to spend the most based on their characteristics?
+* What customer characteristics are more closely linked to customer attrition?
+* Can we accurately predict customer attrition based on these characteristics?
 
 The data analyzed based on these segments: 
 
