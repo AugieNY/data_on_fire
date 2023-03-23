@@ -111,3 +111,17 @@ First model to be evaluated is the Logistic Regression model. This model resulte
 Overall accuracy is not good for this model,  a better approach will be selected with a more robust model where the influence of the imbalanced data has less effect on the results.
 
 Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn).  
+
+For the new model selected, the accuracy score for the test set is similar to the one found in the model with all the features, a value of 0.96 correlates with a good approach to predict the data with input values. As it can be ssen in the following pictures.
+
+**Confusion Matrix**
+
+![This is an image](Resources/FCM.png)
+
+**Imbalanced Accuracy Score**
+
+![This is an image](Resources/FIR.png)
+
+
+
+
