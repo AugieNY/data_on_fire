@@ -130,10 +130,9 @@ Feature importances from the Random Forest algorith shows that the categorical v
 
 ![This is an image](Resources/FIR.png)
 
-Having less features into consideration does not significantly reduced accuracy and the model predictions will be considered as accurate. 
+Having less features into consideration does not significantly reduced accuracy and the model predictions will be considered as accurate. It was deployed in a beta version of an interactive flask app where depending on the input it predicts if its an existing customer or an attrited one. 
 
-
-Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn, joblib, flask).
+Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn, joblib, flask, pickle).
 
 
 
