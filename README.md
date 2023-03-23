@@ -102,15 +102,16 @@ First attempt will focus on creating a simple logistic regression model to predi
 
 ### Sketch of ML file: 
 
-1. Encode and label variables
-2. Determine which variable we’re trying to predict (Y dependent variable, X independent variables)
-3. Split the variables into train set and test set (Stratify and Scale data*)
-4. Initialize and train model 
-5. Test model and predict 
-6. Assess performance of results (accuracy_score*)
+1. Encode and label variables.
+2. Determine which variable we’re trying to predict (Y dependent variable, X independent variables).
+3. Split the variables into train set and test set (Stratify data).
+4. Initialize and train model.
+5. Test model and predict.
+6. Assess performance of results (accuracy_score*).
 
 ### Results
-First model to be evaluated is the Logistic Regression model. This model resulted in an accuracy score of ~0.61, which can be seen in the confusion matrix as many failed attempts in predicting the results right. From the imbalanced report, the f1 score shows that for 'Existing Customers' the predictions have good accuracy, on the other hand, the model failed to predict  'Attrited Customer' (reflected in low overall scores).
+
+First model to be evaluated is the Logistic Regression model. This model resulted in an accuracy score of ~0.61, which can be seen in the confusion matrix as many failed attempts in predicting the results right. From the imbalanced report, the f1 score shows that for 'Existing Customers' the predictions have good accuracy, on the other hand, the model failed to predict  'Attrited Customer' (reflected in low overall scores in Imbalanced Accuracyr report, see following pictures). 
 
 **Confusion Matrix**
 
@@ -122,9 +123,9 @@ First model to be evaluated is the Logistic Regression model. This model resulte
 
 Overall accuracy is not good for this model,  a better approach will be selected with a more robust model where the influence of the imbalanced data has less effect on the results.
 
-Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn).  
+Ensemble methods could help improve minimize the effect of the variance of the data, that could result in better stability and accuracy of the machine learning prediction. Using a boosting algorithm from imblearn (EasyEnsembleClassifier), resulted in an improve of the accuracy score to ~0.94, as well as better predictions of the model. At the same time, it was evaluated a bagging algorith to compare results. This one (BalancedRandomForestClassifier) offered a better accuracy score with the test data of ~0.97, and it was selected as predictive model. 
 
-For the new model selected, the accuracy score for the test set is similar to the one found in the model with all the features, a value of 0.96 correlates with a good approach to predict the data with input values. As it can be ssen in the following pictures.
+Feature importances from the Random Forest algorith shows that the categorical values are not contributing enough to the model and will be taken out of the model. For this new strategy selected, the accuracy score for the test set is similar to the one found in the model with all the features, a value of ~0.96 correlates with a good approach to predict the data from input values. As it can be seen in the following pictures. 
 
 **Confusion Matrix**
 
@@ -134,6 +135,10 @@ For the new model selected, the accuracy score for the test set is similar to th
 
 ![This is an image](Resources/FIR.png)
 
+Having less features into consideration does not significantly reduced accuracy and the model predictions will be considered as accurate. 
+
+
+Technologies used for Machine Learning: Python (libraries: pandas, sklearn, imblearn, joblib, flask).
 
 
 
